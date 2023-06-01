@@ -1,5 +1,5 @@
 module predictor(input wire request, result, clk, taken, output reg prediction);
-    reg [1:0] state =0;
+    reg [1:0] state =3;
 // Your code
 
     always @(posedge clk)       
